@@ -65,13 +65,29 @@ section h3 {
   background-color: #f9f9f9;
 }
 
-.activity-card h4 {
-  margin-bottom: 10px;
-  color: #0066cc;
+.participants-section {
+  background: #f6f8fa;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
-.activity-card p {
-  margin-bottom: 8px;
+.participants-section ul {
+  margin: 0.25em 0 0.25em 1.2em;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.participants-section li {
+  font-size: 0.97em;
+  color: #333;
+  margin-bottom: 0.1em;
+}
+
+.participants-section em {
+  color: #888;
+  font-size: 0.95em;
 }
 
 .form-group {
